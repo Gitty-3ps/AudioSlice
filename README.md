@@ -23,4 +23,6 @@ To get started with AudioSlice, follow these steps:
 
    ```shell
    git clone https://github.com/Gitty-3ps/AudioSlice.gitInstall Dependencies:cd AudioSlice
-pip install -r requirements.txtUsage:python audio_slice.py [OPTIONS]Replace [OPTIONS] with the appropriate command-line arguments.ExamplesHere are some examples of common AudioSlice use cases:Slice an audio file from 0:30 to 1:00:python audio_slice.py --input input.mp3 --output output.mp3 --start 0:30 --end 1:00Extract the first 10 seconds of an audio file:python audio_slice.py --input input.wav --output output.wav --duration 10Concatenate two audio files:python audio_slice.py --input input1.mp3 input2.mp3 --output output.mp3ContributingWe welcome contributions from the open-source community. If you'd like to contribute to AudioSlice, please check our Contribution Guidelines.LicenseAudioSlice is licensed under the MIT License. See the LICENSE file for details.IssuesIf you encounter any issues or have suggestions for improvements, please create an issue on GitHub.AcknowledgmentsWe would like to thank all the contributors who have helped make AudioSlice a better tool for audio processing.Thank you for using AudioSlice! We hope it simplifies your audio manipulation tasks. If you have any questions or need assistance, please don't hesitate to reach out.
+   
+Install Dependencies:cd AudioSlice
+pip install -r requirements.txtUsage:python audio_slice.py [OPTIONS]
